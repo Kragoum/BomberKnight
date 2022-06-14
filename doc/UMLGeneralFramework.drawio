@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-14T11:36:02.726Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="HqOss_zPOb97IdMjUf4d" version="20.0.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-06-14T12:50:31.220Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="O6yx-V77LnxAGYAj3ryk" version="20.0.1" type="github" pages="6">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Entity">
-    <mxGraphModel dx="3076" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2614" dy="1788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -322,11 +322,6 @@
             <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zQRyZNIkdWXrLQ8PCiBs-0" value="GameStatus" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-827" y="-90" width="210" height="60" as="geometry">
-            <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="m8LF-ZGYIUAYpcabDD86-0" value="SmallRedSquare" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-1260" y="-840" width="210" height="110" as="geometry">
             <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
@@ -339,7 +334,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="P7ZYKNzJO6TBV-RXqcA2" name="Components">
-    <mxGraphModel dx="2249" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1787" dy="619" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -517,7 +512,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="kywROWC3MnGTriDKrUZh" name="Systems">
-    <mxGraphModel dx="2370" dy="1323" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="960" dy="619" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -540,7 +535,7 @@
         <mxCell id="Zo39dO2TL1DgSxrybfbA-1" value="&lt;span style=&quot;&quot;&gt;AnimatedSprite&lt;br&gt;&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="8Iiqby4rLfHwTd-ICCUl-7" vertex="1">
           <mxGeometry y="26" width="300" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Zo39dO2TL1DgSxrybfbA-2" value="&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Pour chaque composant AnimatedSprite des entité :&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;/div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;call function updateElapsedTime(TimeSpan)&lt;br&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" parent="8Iiqby4rLfHwTd-ICCUl-7" vertex="1">
+        <mxCell id="Zo39dO2TL1DgSxrybfbA-2" value="&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Pour chaque composant AnimatedSprite des entité :&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;/div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;call function updateElapsedTime(TimeSpan)&lt;br&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" parent="8Iiqby4rLfHwTd-ICCUl-7" vertex="1">
           <mxGeometry y="86" width="300" height="50" as="geometry" />
         </mxCell>
         <mxCell id="88iMN-DfQ2jqtCk-f6NN-1" value="InputSystem" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
@@ -661,7 +656,7 @@
         <mxCell id="n0HGgdC2rVfDf1BQgTgn-2" value="&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;Collection&amp;lt;std::shared_ptr&amp;lt;IEntity&amp;gt;&amp;gt; _generatedEntities&lt;br&gt;Collection&amp;lt;std::shared_ptr&amp;lt;IEntity&amp;gt;&amp;gt; _updatedEntities&lt;br&gt;Collection&amp;lt;UUID&amp;gt; _deletedEntities&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;Array&amp;lt;std::unique_ptr&amp;lt;ILogicalSystem&amp;gt;&amp;gt; _logicalSystems&lt;br&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;Array&amp;lt;std::unique_ptr&amp;lt;IRendererSystem&amp;gt;&amp;gt; _rendererSystems&lt;br&gt;&lt;/blockquote&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;" parent="n0HGgdC2rVfDf1BQgTgn-1" vertex="1">
           <mxGeometry y="26" width="530" height="114" as="geometry" />
         </mxCell>
-        <mxCell id="n0HGgdC2rVfDf1BQgTgn-3" value="public:&lt;br&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;void onEntityComposentUpdated(IEntity* updatedEntity)&lt;br&gt;void onEntityDelation(UUID deletedEntity)&lt;br&gt;void onEntityGeneration(IEntity* generatedEntity)&lt;br&gt;void updateLogicalSystems(TimeSpan elapsedTime)&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;void updateRendererSystems(TimeSpan elapsedTime, RendererTarget target)&lt;br&gt;&lt;/blockquote&gt;private:&lt;br&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;void addAndRemoveUpdatedEntities()&lt;br&gt;void addAllGeneratedEntities()&lt;br&gt;void removeAllDeletedEntities()&lt;/blockquote&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;" parent="n0HGgdC2rVfDf1BQgTgn-1" vertex="1">
+        <mxCell id="n0HGgdC2rVfDf1BQgTgn-3" value="public:&lt;br&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;void onEntityComposentUpdated(IEntity* updatedEntity)&lt;br&gt;void onEntityDelation(UUID deletedEntity)&lt;br&gt;void onEntityGeneration(IEntity* generatedEntity)&lt;br&gt;void updateLogicalSystems(TimeSpan elapsedTime)&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;void callRendererSystems(TimeSpan elapsedTime, RendererTarget target)&lt;br&gt;&lt;/blockquote&gt;private:&lt;br&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;void addAndRemoveUpdatedEntities()&lt;br&gt;void addAllGeneratedEntities()&lt;br&gt;void removeAllDeletedEntities()&lt;/blockquote&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;" parent="n0HGgdC2rVfDf1BQgTgn-1" vertex="1">
           <mxGeometry y="140" width="530" height="170" as="geometry" />
         </mxCell>
         <mxCell id="n0HGgdC2rVfDf1BQgTgn-5" value="&lt;b&gt;Singleton&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d79b00;fillColor=#ffe6cc;" parent="1" vertex="1">
@@ -670,21 +665,21 @@
         <mxCell id="9CGX7eievHVfjkbiZJNF-1" value="&lt;h1&gt;System&lt;/h1&gt;&lt;p&gt;Un objet &lt;b&gt;System &lt;/b&gt;manipule les &lt;b&gt;Components&lt;/b&gt; de tous les &lt;b&gt;Entity &lt;/b&gt;qui contient certains objet &lt;b&gt;Component&lt;/b&gt;.&lt;br&gt;La règle déterminant quels &lt;b&gt;Component &lt;/b&gt;un &lt;b&gt;Entity &lt;/b&gt;doit avoir pour être géré par le &lt;b&gt;System&amp;nbsp;&lt;/b&gt;est écrit en dur dans le code.&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Toutes les classes représentant un objet &lt;b&gt;System &lt;/b&gt;doivent héritées de l&#39;interface &lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;ILogicSystem &lt;/b&gt;ou&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;IRendererSystem&lt;/b&gt;, selon que le système contribue à la mise à jour &quot;logique&quot; ou &quot;graphique&quot; jeux.&lt;/span&gt;&lt;/p&gt;Le singleton GlobalSystem référence tous les systèmes et fait office d&#39;interface avec le reste du code.&lt;br&gt;&lt;br&gt;La fonction&amp;nbsp;&lt;b&gt;GlobalSystem-&amp;gt;updateLogicalSystems()&lt;/b&gt;&amp;nbsp;constitue la première étape de la&amp;nbsp;&lt;i&gt;GameLoop&lt;br&gt;&lt;/i&gt;La fonction&amp;nbsp;&lt;b&gt;GlobalSystem-&amp;gt;updateRendererSystems()&lt;/b&gt;&amp;nbsp;constitue la deuxième étape de la&amp;nbsp;&lt;i&gt;GameLoop&lt;br&gt;&lt;/i&gt;" style="text;html=1;strokeColor=#0e8088;fillColor=#b0e3e6;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry y="10" width="660" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="Gve_sUssWLZCbJ6OatwW-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;" edge="1" parent="1" source="Gve_sUssWLZCbJ6OatwW-1" target="KQKHP7AOvHA5t0i82Qb--2">
+        <mxCell id="Gve_sUssWLZCbJ6OatwW-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;" parent="1" source="Gve_sUssWLZCbJ6OatwW-1" target="KQKHP7AOvHA5t0i82Qb--2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Gve_sUssWLZCbJ6OatwW-1" value="ILogicalSystem" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="Gve_sUssWLZCbJ6OatwW-1" value="ILogicalSystem" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="1000" y="590" width="420" height="126" as="geometry">
             <mxRectangle x="220" y="120" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Gve_sUssWLZCbJ6OatwW-3" value="public :&lt;br&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;virtual void update([[maybe_unused]] TimeSpan elapsedTime)&lt;/blockquote&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" vertex="1" parent="Gve_sUssWLZCbJ6OatwW-1">
+        <mxCell id="Gve_sUssWLZCbJ6OatwW-3" value="public :&lt;br&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;virtual void update([[maybe_unused]] TimeSpan elapsedTime)&lt;/blockquote&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" parent="Gve_sUssWLZCbJ6OatwW-1" vertex="1">
           <mxGeometry y="26" width="420" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="Gve_sUssWLZCbJ6OatwW-4" value="&lt;b&gt;Système pour la&amp;nbsp;&lt;span style=&quot;text-align: left;&quot;&gt;1&lt;sup&gt;ère&amp;nbsp;&lt;/sup&gt;étape de la&amp;nbsp;&lt;/span&gt;&lt;i style=&quot;text-align: left;&quot;&gt;GameLoop&lt;/i&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+        <mxCell id="Gve_sUssWLZCbJ6OatwW-4" value="&lt;b&gt;Système pour la&amp;nbsp;&lt;span style=&quot;text-align: left;&quot;&gt;1&lt;sup&gt;ère&amp;nbsp;&lt;/sup&gt;étape de la&amp;nbsp;&lt;/span&gt;&lt;i style=&quot;text-align: left;&quot;&gt;GameLoop&lt;/i&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" parent="1" vertex="1">
           <mxGeometry x="920" y="570" width="260" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Gve_sUssWLZCbJ6OatwW-13" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="Gve_sUssWLZCbJ6OatwW-13" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="1060" y="340" width="830" height="190" as="geometry" />
         </mxCell>
         <mxCell id="8Iiqby4rLfHwTd-ICCUl-1" value="ISystem" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="Gve_sUssWLZCbJ6OatwW-13" vertex="1">
@@ -701,56 +696,56 @@
         <mxCell id="UEvypBXQMqkoSdE9OCei-1" value="&lt;b&gt;class parent communes à tous&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" parent="Gve_sUssWLZCbJ6OatwW-13" vertex="1">
           <mxGeometry width="190" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Gve_sUssWLZCbJ6OatwW-16" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="Gve_sUssWLZCbJ6OatwW-16" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="1550" y="570" width="420" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="Gve_sUssWLZCbJ6OatwW-5" value="IRendererSystem" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Gve_sUssWLZCbJ6OatwW-16">
+        <mxCell id="Gve_sUssWLZCbJ6OatwW-5" value="IRendererSystem" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="Gve_sUssWLZCbJ6OatwW-16" vertex="1">
           <mxGeometry y="20" width="420" height="126" as="geometry">
             <mxRectangle x="220" y="120" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Gve_sUssWLZCbJ6OatwW-7" value="public :&lt;br&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border: none; padding: 0px;&quot;&gt;virtual void update([[maybe_unused]] TimeSpan elapsedTime, RendererTarget target)&lt;/blockquote&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" vertex="1" parent="Gve_sUssWLZCbJ6OatwW-5">
+        <mxCell id="Gve_sUssWLZCbJ6OatwW-7" value="public :&lt;br&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border: none; padding: 0px;&quot;&gt;virtual void render(RendererTarget target)&lt;/blockquote&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" parent="Gve_sUssWLZCbJ6OatwW-5" vertex="1">
           <mxGeometry y="26" width="420" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="Gve_sUssWLZCbJ6OatwW-19" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=5;" edge="1" parent="1">
+        <mxCell id="Gve_sUssWLZCbJ6OatwW-19" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=5;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1480" y="2280" as="sourcePoint" />
             <mxPoint x="1480" y="640" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Gve_sUssWLZCbJ6OatwW-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;" edge="1" parent="1" source="Gve_sUssWLZCbJ6OatwW-5" target="KQKHP7AOvHA5t0i82Qb--2">
+        <mxCell id="Gve_sUssWLZCbJ6OatwW-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;" parent="1" source="Gve_sUssWLZCbJ6OatwW-5" target="KQKHP7AOvHA5t0i82Qb--2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Gve_sUssWLZCbJ6OatwW-11" value="&lt;b&gt;Système pour la&amp;nbsp;&lt;span style=&quot;text-align: left;&quot;&gt;2&lt;sup&gt;ème&lt;/sup&gt; étape de la&amp;nbsp;&lt;/span&gt;&lt;i style=&quot;text-align: left;&quot;&gt;GameLoop&lt;/i&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+        <mxCell id="Gve_sUssWLZCbJ6OatwW-11" value="&lt;b&gt;Système pour la&amp;nbsp;&lt;span style=&quot;text-align: left;&quot;&gt;2&lt;sup&gt;ème&lt;/sup&gt; étape de la&amp;nbsp;&lt;/span&gt;&lt;i style=&quot;text-align: left;&quot;&gt;GameLoop&lt;/i&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" parent="1" vertex="1">
           <mxGeometry x="1790" y="570" width="270" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Gve_sUssWLZCbJ6OatwW-25" value="AnimatedSpriteRendererSystem" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="Gve_sUssWLZCbJ6OatwW-25" value="AnimatedSpriteRendererSystem" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="1560" y="810" width="300" height="106" as="geometry">
             <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Gve_sUssWLZCbJ6OatwW-26" value="&lt;span style=&quot;&quot;&gt;Position&lt;br&gt;AnimatedSprite&lt;br&gt;&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Gve_sUssWLZCbJ6OatwW-25">
+        <mxCell id="Gve_sUssWLZCbJ6OatwW-26" value="&lt;span style=&quot;&quot;&gt;Position&lt;br&gt;AnimatedSprite&lt;br&gt;&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="Gve_sUssWLZCbJ6OatwW-25" vertex="1">
           <mxGeometry y="26" width="300" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Gve_sUssWLZCbJ6OatwW-27" value="&lt;div style=&quot;&quot;&gt;&lt;/div&gt;Afficher le sprite" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="Gve_sUssWLZCbJ6OatwW-25">
+        <mxCell id="Gve_sUssWLZCbJ6OatwW-27" value="&lt;div style=&quot;&quot;&gt;&lt;/div&gt;Afficher le sprite" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" parent="Gve_sUssWLZCbJ6OatwW-25" vertex="1">
           <mxGeometry y="86" width="300" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Gve_sUssWLZCbJ6OatwW-28" value="SpriteRendererSystem" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="Gve_sUssWLZCbJ6OatwW-28" value="SpriteRendererSystem" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="1918" y="810" width="300" height="106" as="geometry">
             <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Gve_sUssWLZCbJ6OatwW-29" value="&lt;span style=&quot;&quot;&gt;Position&lt;br&gt;SpriteSprite&lt;br&gt;&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Gve_sUssWLZCbJ6OatwW-28">
+        <mxCell id="Gve_sUssWLZCbJ6OatwW-29" value="&lt;span style=&quot;&quot;&gt;Position&lt;br&gt;SpriteSprite&lt;br&gt;&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="Gve_sUssWLZCbJ6OatwW-28" vertex="1">
           <mxGeometry y="26" width="300" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Gve_sUssWLZCbJ6OatwW-30" value="&lt;div style=&quot;&quot;&gt;&lt;/div&gt;Afficher le sprite" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="Gve_sUssWLZCbJ6OatwW-28">
+        <mxCell id="Gve_sUssWLZCbJ6OatwW-30" value="&lt;div style=&quot;&quot;&gt;&lt;/div&gt;Afficher le sprite" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" parent="Gve_sUssWLZCbJ6OatwW-28" vertex="1">
           <mxGeometry y="86" width="300" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="HyMK2azjjZsVn_pod_jo" name="Renderer">
-    <mxGraphModel dx="2249" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1787" dy="619" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -772,7 +767,7 @@
         <mxCell id="3n0oiMyTWHfpuuY17RiM-6" value="lack of design" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="3n0oiMyTWHfpuuY17RiM-1" vertex="1">
           <mxGeometry x="20" y="60" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9pp6qlTnYvei60tTQUFb-1" value="&lt;h1&gt;Renderer&lt;/h1&gt;&lt;p&gt;Les élements indiqués dans cette partie peuvent être transformé en Entity...&lt;br&gt;Chercher des arguments contre cette transformation.&lt;/p&gt;" style="text;html=1;strokeColor=#0e8088;fillColor=#b0e3e6;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+        <mxCell id="9pp6qlTnYvei60tTQUFb-1" value="&lt;h1&gt;Renderer&lt;/h1&gt;&lt;p&gt;Les &lt;b&gt;Renderer&lt;/b&gt;&amp;nbsp;peuvent être transformer en &lt;b&gt;Entity Components System&lt;/b&gt;, les pour :&lt;br&gt;- Inutile de créer une sorte de duplicata de la class GlobelSystem&lt;/p&gt;&lt;p&gt;Les contres :&lt;br&gt;- Chaque&amp;nbsp;&lt;b&gt;Entity,&amp;nbsp;&lt;/b&gt;&lt;b&gt;Component&lt;/b&gt;&amp;nbsp;et &lt;b&gt;Systems&lt;/b&gt;&amp;nbsp;implémenté l&#39;est uniquement pour un &lt;b&gt;Renderer&lt;/b&gt;. Les foncions classiques de l&#39;architecture ECS ne risquent pas d&#39;être appelé...&lt;/p&gt;" style="text;html=1;strokeColor=#0e8088;fillColor=#b0e3e6;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-790" y="10" width="657" height="150" as="geometry" />
         </mxCell>
         <mxCell id="p3ThxsP96KHNjGNhyGsV-1" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Background&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;void render(sf::RendererTarget)&lt;/span&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
